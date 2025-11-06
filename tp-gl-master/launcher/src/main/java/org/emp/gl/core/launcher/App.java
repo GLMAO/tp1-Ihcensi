@@ -26,6 +26,8 @@ public class App {
         
         // Partie (d) - Compte à rebours
         CompteARebours compte1 = new CompteARebours("Compte-5", 5, timerService);
+        CompteARebours compte2 = new CompteARebours("Compte-10", 10, timerService);
+        CompteARebours compte3 = new CompteARebours("Compte-7", 7, timerService);
         
         // Bonus (f) - Horloge Graphique
         HorlogeGUI horlogeGUI = new HorlogeGUI(timerService);
